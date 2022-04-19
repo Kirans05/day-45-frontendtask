@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.mainpagesignup{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 96vh;
+}
+.mainNavBar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+.mainnavbtn{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 2px solid  white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 160px;
+    text-indent: 3px;
+    background-color: blue;
+}
+.mainnavbtnlogin{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 2px solid  white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 90px;
+    margin-left: -124px;
+    z-index: 2;
+    text-indent: 25px;
+    background-color: red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.formdiv{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    margin-left: 20%;
 }
+.formdiv >  .signupform{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: red;
+    border: 3px solid red;
+    padding: 60px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+} 
+.signupbtn{
+    background-color: green;
+    border-color: green;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.dashboardDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 96vh;
+
+}
+.dashboardNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    height: 50px;
+}
+.navbarcomponents{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 2px solid white;
+    padding: 10px;    
+    border-radius: 20px;
+    background-color: red;
+}
+.urldiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    
